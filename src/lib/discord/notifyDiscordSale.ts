@@ -91,11 +91,11 @@ export default async function notifyDiscordSale(
         inline: true,
       },
     ],
-    image: {
-      url: encodeURI(nftData.image),
-      width: 600,
-      height: 600,
-    },
+//     image: {
+//       url: encodeURI(nftData.image),
+//       width: 600,
+//       height: 600,
+//     },
     footer: {
       text: `Sold on ${marketplace.name}`,
       icon_url: marketplace.iconURL,
